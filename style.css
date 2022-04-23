@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.yowes{
+    position: relative;
+    left: 54px;
+    top: -30px;
+}
+.container {
+    text-align: center;
+    width: 1200px;
+    background-color: rgb(215, 212, 212);
+    margin: auto;
+    border-radius: 10px;
+}
+.pilihan {
+    text-align: center;
+    background-color: rgb(176, 218, 244);
+    padding: 30px;
+}
+a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+.home {
+    text-align: center;
+    width: 1200px;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.porto {
+    text-align: center;
+    width: 1200px;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+footer{
+	height:50vh;
+	display:flex;
+	flex-direction:row;		
+	align-items:center;
+	justify-content:space-evenly;
+}
+footer div a{
+	background-color:rgb(255, 255, 255);
+	border-radius:50%;
+	height:100px;
+	width:100px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	white-space:pre-line;
+	overflow:hidden;
+}
+footer div a:hover{
+	border-radius:20%;
+	box-shadow:
+		-5px 5px 10px,
+		5px -5px 10px,
+		5px 5px 10px,
+		-5px -5px 10px;
+}
+footer div a img{
+	border-radius:20%;
+}
+footer div p{
+	text-align:center;
+}
+
+table{
+    border-collapse: collapse;
+}
+tr{
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.value{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+}
+
+.tabel{
+    margin-right: 100px;
+    display: inline-block;
+}
